@@ -1,0 +1,20 @@
+{
+  "name": "ethmonitor",
+  "version": "0.0.1",
+  "description": "ethereum script for monitoring public addresses ",
+  "main": "monitor.js",
+  "keywords": [
+    "ethereum",
+    "address",
+    "monitor"
+  ],
+  "author": "Heber Bastidas",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbastidas/ethmonitor.git"
+  },
+  "dependencies": {
+    "web3": "^1.2.6"
+  }
+}
