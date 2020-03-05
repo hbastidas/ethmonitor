@@ -36,19 +36,3 @@ class monitor extends EventEmitter{
 }
 
 module.exports=monitor;
-
-// 
-// let app = new monitor("ropsten", "6676727b364c441e9b8a01c6f5b840c0");
-// const accounts={
-//     "0x9b0f09B230dbBaBF2e696F2d3427b4681fcf1719":{},
-//     "0x2e5351FCeD6d2761d8a49464BdEc38216B22aC47":{}
-// }
-    
-// app.getdata(accounts, 3)
-
-// //reacciona a cambios
-// app.on('change', function(data) {
-
-//     //data.key is a ether account
-//     console.log(accounts[data.key]);
-// });

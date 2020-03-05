@@ -1,8 +1,11 @@
 {
   "name": "ethmonitor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ethereum script for monitoring public addresses ",
-  "main": "monitor.js",
+  "main": "src/monitor.js",
+  "scripts": {
+    "build": "npx webpack"
+  },
   "keywords": [
     "ethereum",
     "address",
@@ -16,5 +19,9 @@
   },
   "dependencies": {
     "web3": "^1.2.6"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
   }
 }
